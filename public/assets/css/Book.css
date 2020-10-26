@@ -1,0 +1,19 @@
+.book {
+  max-width: 240px;
+  min-width: 200px;
+  object-fit: contain;
+  width: 100%;
+  margin-right: 20px;
+  transition: transform 450ms;
+}
+.book:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+.media {
+  max-height: 40;
+  height: 300;
+}
+.slider-bar {
+  color: #f59342;
+}
